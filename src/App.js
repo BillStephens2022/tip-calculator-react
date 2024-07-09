@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { BillInput } from './BillInput';
+import { BillInput } from './components/BillInput';
 import './App.css';
-import Message from './Message';
+import Message from './components/Message';
 
 function App() {
   const [bill, setBill] = useState(0);
