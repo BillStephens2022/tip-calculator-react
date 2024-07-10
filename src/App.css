@@ -75,3 +75,15 @@ select {
 .tip {
   color: chartreuse;
 }
+
+.btn {
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

@@ -4,6 +4,7 @@ import './App.css';
 import Message from './components/Message';
 import SelectInput from './components/SelectInput';
 import Footer from './components/Footer';
+import Button from './components/Button';
 
 function App() {
   const [bill, setBill] = useState(0);
@@ -18,6 +19,12 @@ function App() {
     { value: "20", text: "Absolutely Amazing! (20%)" }
   ]
 
+  function resetFields() {
+    setBill(0);
+    setMyTip("0");
+    setFriendTip("0");
+  }
+
 
   return (
     <div className="App">
@@ -28,7 +35,8 @@ function App() {
         <BillInput bill={bill} setBill={setBill} />
         <SelectInput tipOptions={tipOptions} tip={myTip} setTip={setMyTip}>How did you like the service?</SelectInput>
         <SelectInput tipOptions={tipOptions} tip={friendTip} setTip={setFriendTip}>How did your friend like the service?</SelectInput>
-        <Message bill={bill} avgTip={avgTip} />       
+        <Message bill={bill} avgTip={avgTip} />   
+        <Button onClick={resetFields}>Reset</Button>    
       </main>
       <footer className="App-footer">
         <Footer />
