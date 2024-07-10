@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tip-calculator-react/static/css/main.36ad428f.css",
+    "main.js": "/tip-calculator-react/static/js/main.74422b03.js",
+    "index.html": "/tip-calculator-react/index.html",
+    "main.36ad428f.css.map": "/tip-calculator-react/static/css/main.36ad428f.css.map",
+    "main.74422b03.js.map": "/tip-calculator-react/static/js/main.74422b03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ad428f.css",
+    "static/js/main.74422b03.js"
+  ]
+}
