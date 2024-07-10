@@ -23,13 +23,17 @@ form {
   padding: 20px 0;
 }
 
+.form-group {
+  padding: 20px 0;
+}
+
 label {
   margin-right: 8px;
   font-weight: 700;
   letter-spacing: 2px;
 }
 
-input {
+input, select {
   border-radius: 5px;
   padding: 5px;
 }
