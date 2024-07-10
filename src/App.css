@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+.App-header, .App-footer {
   background-color: #282c34;
   min-height: 20vh;
   display: flex;
@@ -13,13 +13,24 @@
   color: white;
 }
 
+.App-footer {
+  min-height: 10vh;
+}
+
+.footer-link {
+  color: steelblue;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 main {
-  min-height: 60vh;
+  min-height: 70vh;
   background-color: steelblue;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 form {

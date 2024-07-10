@@ -3,6 +3,7 @@ import { BillInput } from './components/BillInput';
 import './App.css';
 import Message from './components/Message';
 import SelectInput from './components/SelectInput';
+import Footer from './components/Footer';
 
 function App() {
   const [bill, setBill] = useState(0);
@@ -29,6 +30,9 @@ function App() {
         <SelectInput tipOptions={tipOptions} tip={friendTip} setTip={setFriendTip}>How did your friend like the service?</SelectInput>
         <Message bill={bill} avgTip={avgTip} />       
       </main>
+      <footer className="App-footer">
+        <Footer />
+      </footer>
     </div>
   );
 }
